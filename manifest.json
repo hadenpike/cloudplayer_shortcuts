@@ -1,0 +1,14 @@
+{
+    "manifest_version": 2,
+    "name": "Cloudplayer shortcuts",
+    "version": "1",
+    "description": "Add more shortcuts to the Audible cloudplayer",
+    "content_scripts": [{
+        "exclude_globs": [  ],
+        "include_globs": [ "*" ],
+        "js": [ "script.user.js" ],
+        "matches": ["https://www.audible.com/webplayer?*",
+"https://www.audible.com/webplayer?*"
+    ]
+    }]
+}
